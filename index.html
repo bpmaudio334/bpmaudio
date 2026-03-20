@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPM Audio | Electronic Press Kit 2026</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --accent-color: #e63946; /* High-energy Red for BPM */
+            --text-color: #ffffff;
+            --secondary-text: #b0b0b0;
+            --card-bg: #1a1a1a;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        
+        /* Hero Section */
+        header { 
+            padding: 120px 20px; 
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop'); 
+            background-size: cover;
+            background-position: center;
+        }
+        h1 { font-size: 5rem; letter-spacing: -2px; text-transform: uppercase; margin: 0; line-height: 0.9; }
+        .tagline { font-size: 1.4rem; color: var(--accent-color); font-weight: 300; margin-top: 10px; text-transform: uppercase; letter-spacing: 4px; }
+
+        /* Genre Tags */
+        .genre-cloud { margin: 30px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .tag { background: #333; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; text-transform: uppercase; color: var(--accent-color); border: 1px solid #444; }
+
+        /* Bio Section */
+        .bio { padding: 40px 20px; }
+        .bio p { font-size: 1.2rem; max-width: 700px; margin: 0 auto; color: var(--secondary-text); }
+
+        /* Buttons */
+        .btn-group { margin-top: 30px; }
+        .btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: #fff;
+            padding: 18px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 3px;
+            margin: 10px;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-outline { background: transparent; border: 2px solid var(--accent-color); }
+        .btn:hover { transform: scale(1.05); filter: brightness(1.2); }
+
+        /* Media Sections */
+        .section-title { color: #fff; text-transform: uppercase; letter-spacing: 3px; margin-top: 80px; font-size: 2rem; }
+        .media-placeholder { background: var(--card-bg); padding: 60px; border-radius: 8px; margin: 25px 0; border: 1px solid #333; color: #555; }
+        
+        footer { padding: 80px; color: var(--secondary-text); font-size: 0.8rem; border-top: 1px solid #222; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BPM AUDIO</h1>
+        <p class="tagline">Sonic Versatility Defined</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="bio">
+            <div class="genre-cloud">
+                <span class="tag">RnB</span> <span class="tag">Rock</span> <span class="tag">Country</span> 
+                <span class="tag">Hip Hop</span> <span class="tag">Neo Soul</span> <span class="tag">Funk</span> 
+                <span class="tag">LoFi</span> <span class="tag">Movie Scores</span>
+            </div>
+            <p>From the gritty distortion of Rock and the pulse of Hip Hop to the cinematic sweep of original Movie Scores, <strong>BPM Audio</strong> is a powerhouse of multi-genre production. Whether it’s the warmth of Neo Soul or the storytelling of Country, every track is engineered for maximum emotional impact.</p>
+            
+           
+        </section>
+
+        <section id="music">
+            <h2 class="section-title">The Catalog</h2>
+            <div class="media-placeholder">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3v4RtegqqS0wbVj2AClLYE?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Booking & Inquiries</h2>
+            <p>Available for Movies, Social Media, Television, and Commercials.</p>
+            <p style="font-size: 1.5rem; color: var(--accent-color);"><strong>bpmaudio334@gmail.com</strong></p>
+        </section>
+
+        <footer>
+            &copy; 2026 BPM Audio | Montgomery, Alabama. All Rights Reserved.
+        </footer>
+
+    </div>
+
+</body>
+</html>
